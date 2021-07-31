@@ -1,0 +1,67 @@
+:root{ /*Customes Properties */
+    --blanco: #ffffff;
+    --negro: #212121;
+    --amarillo: #ffc107;
+    --azul: #0097a7;
+    --gris: #757575;
+}
+
+html{
+    font-size: 62.5%; /* 1rem = 10px */
+}
+body{
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.3rem;
+    margin: 0.5rem;
+}
+
+.titulo span{
+    font-size: 1.9rem;
+    font-style: italic;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+
+/* Menu de Navegación */
+
+.nav-bg{
+    background-color: var(--azul);
+}
+
+.nav-principal{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 480px ) {
+    .nav-principal{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+.nav-principal a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.nav-principal a:hover{
+    background-color: var(--amarillo);
+    color: var(--negro);
+}
+
+/* ESTILOS DEL BANNER*/
+.banner{
+    background-image: url(../img/banner.jpg);
+    
+}
