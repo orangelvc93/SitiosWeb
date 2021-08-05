@@ -270,3 +270,8 @@ h3 {
     border: none;
     box-sizing: border-box;
 }
+
+/* FOOTER */
+.footer{
+    text-align: center;
+}
